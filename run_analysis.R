@@ -3,8 +3,6 @@ library(dplyr)
 library(data.table)
 
 ## 1. Merges the training and the test sets to create one data set.
-    # Set the working directory
-    setwd("C:\\Projects\\datasciencecoursera\\GetAndClean\\Class Project")
 
     # Download the files and unzip them
     fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
